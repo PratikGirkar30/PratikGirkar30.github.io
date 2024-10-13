@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Numeric Conversion - BCD to Decimal</title>
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext'
+        rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+</head>
+
+<body class="size-1280">
+    <!-- TOP NAV WITH LOGO -->
+    <header>
+        <nav>
+            <div class="line">
+                <div class="m-12 l-2">
+                    <img class="s-5 m-2 l-12 center" src="img/logo.png">
+                </div>
+                <div class="top-nav s-12 l-10 right">
+
+                    <ul class="right">
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <a>Product</a>
+                            <ul>
+                                <li><a href="bintobcd.html">Binary to BCD</a></li>
+                                <li><a href="bcdtobin.html">BCD to Binary</a></li>
+                                <li><a href="bcdtodecimal.html" class="active">BCD to Decimal</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Contact</a>
+                            <ul>
+                                <li><a><i class="fas fa-phone"></i> +91 8485875398</a></li>
+                                <li><a><i class="fas fa-envelope"></i> pratik.girkar30@gmail.com</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ASIDE NAV AND CONTENT -->
+    <div class="line">
+        <div class="box  margin-bottom">
+            <div class="margin2x">
+                <!-- ASIDE NAV 1 -->
+                <aside class="s-12 l-3">
+                    <h3>Navigation</h3>
+                    <div class="aside-nav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li>
+                                <a>Product</a>
+                                <ul>
+                                    <li><a href="bintobcd.html">Binary to BCD</a></li>
+                                    <li><a href="bcdtobin.html">BCD to Binary</a></li>
+                                    <li><a href="bcdtodecimal.html" class="active">BCD to Decimal</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li><a>Contact</a>
+                                <ul>
+                                    <li><a><i class="fas fa-phone"></i> +91 8485875398</a></li>
+                                    <li><a><i class="fas fa-envelope"></i> pratik.girkar30@gmail.com</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+                <!-- CONTENT -->
+                <section class="s-12 l-6">
+                    <h1 style="text-align: center;">BCD to Decimal Conversion</h1><br><br>
+                    <form id="conversion-form">
+                        <label for="inputNumber">Enter BCD Number:</label>
+                        <input type="text" id="inputNumber" placeholder="Enter number">
+                        <button type="button" onclick="bcdtodec()">Convert</button>
+                    </form>
+                    <div id="result">
+                        <p id="convertedNumber">Result will appear here</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="line">
+        <footer class="box">
+            <div class="s-12 l-6">
+                <p>&copy; Copyright 2024 Numeric Conversion</p>
+            </div>
+            <div class="s-12 l-6">
+                <h5 class="right" href="http://www.myresponsee.com"
+                    title="Responsee - lightweight responsive framework">
+                    Developed by Pratik Deep Girkar</h5>
+            </div>
+    </div>
+    </footer>
+    </div>
+    <script src="script3.js"></script>
+    <script type="text/javascript" src="js/responsee.js"></script>
+</body>
+
+</html>
