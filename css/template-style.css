@@ -1,0 +1,18 @@
+nav {
+  padding: 0.825rem 0;
+}
+@media screen and (max-width: 768px) {
+  .right {
+    float:none;
+  }
+  nav {
+    padding: 10px 0;
+    height: 60px;
+  }
+  .logo img {
+    max-width: 172px;
+    max-height: 40px;
+    margin: 0 auto;
+    width: auto;
+  }
+}
