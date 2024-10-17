@@ -5,3 +5,5 @@ Features:
 Binary to BCD Conversion: Easily convert binary numbers to BCD format.
 
 Custom Calculators: Use our intuitive calculators to convert between various number systems with just a few clicks.
+
+Website: https://pratikgirkar30.github.io
